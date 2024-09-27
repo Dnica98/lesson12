@@ -1,8 +1,9 @@
 @import 'mixin.scss';
 
 :root {
-    primary: rgb(10, 204, 36);
+    --primary: rgb(10, 204, 36);
 }
+
 body{
     margin: 0;
 
@@ -60,7 +61,7 @@ body{
     &__register-btn{
         border: none;
         border-radius: 4px;
-        background-color: var(primary);
+        background-color: var(--primary);
         color: white;
         display: flex;
         align-items: center;
